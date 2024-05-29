@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(master)
 
-add_executable(message_writer mes.cpp)
+add_executable(master mes.cpp)
