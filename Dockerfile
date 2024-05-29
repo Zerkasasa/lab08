@@ -7,4 +7,4 @@ WORKDIR /usr/src/app
 COPY . .
 RUN mkdir build
 RUN cmake -H. -B build && cmake --build build
-CMD ["./build/mes"]
+CMD ["./build/master"]
